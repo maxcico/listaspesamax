@@ -1,26 +1,26 @@
 {
   "expo": {
-    "name": "ListOn - Lista Spesa",
-    "slug": "liston-app",
-    "version": "1.0.0",
+    "name": "ListaSpesaMax",
+    "slug": "listaspesa-max",
+    "version": "1.2.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "backgroundColor": "#4CAF50"
+      "backgroundColor": "#2E7D32"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#4CAF50"
-      },
-      "package": "com.massimo.listonapp",
-      "versionCode": 1
+      "package": "com.massimo.listaspesaMax",
+      "versionCode": 3
     },
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.massimo.listonapp"
+      "bundleIdentifier": "com.massimo.listaspesaMax"
     },
-    "plugins": []
+    
+    "extra": {
+      "eas": {
+        "projectId": "a9a20e99-46d2-4402-898d-cb36d3ae1d1b"
+      }
+    }
   }
 }

@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "ListOn - Lista Spesa",
+    "slug": "liston-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#4CAF50"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#4CAF50"
+      },
+      "package": "com.massimo.listonapp",
+      "versionCode": 1
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.massimo.listonapp"
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "696ffe70-9ac6-4501-b4c5-e56770bcd7b7"
+      }
+    }
+  }
+}
