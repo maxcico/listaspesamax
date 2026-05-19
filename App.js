@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import {
   View, Text, TextInput, TouchableOpacity, ScrollView,
   StyleSheet, StatusBar, Modal, Alert, Share, Platform,
-  KeyboardAvoidingView, SectionList,
+  KeyboardAvoidingView, SectionList, Image,
 } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
@@ -143,10 +143,10 @@ export default function App() {
   // SCHERMATA DI CARICAMENTO
   // ════════════════════════════════════════
   if (!loaded) return (
-    <View style={{ flex: 1, alignItems: "center", justifyContent: "center", backgroundColor: "#2E7D32" }}>
-      <Text style={{ fontSize: 60 }}>🛒</Text>
-      <Text style={{ color: "white", fontSize: 22, fontWeight: "900", marginTop: 20 }}>ListaSpesaMax</Text>
-      <Text style={{ color: "rgba(255,255,255,0.7)", fontSize: 14, marginTop: 8 }}>Caricamento...</Text>
+    <View style={{ flex: 1, alignItems: "center", justifyContent: "center", backgroundColor: "#FFFFFF" }}>
+      <Image source={require("./assets/logo.png")} style={{ width: 180, height: 180, resizeMode: "contain" }} />
+      <Text style={{ color: "#222", fontSize: 22, fontWeight: "900", marginTop: 20 }}>ListaSpesaMax</Text>
+      <Text style={{ color: "rgba(0,0,0,0.5)", fontSize: 14, marginTop: 8 }}>Caricamento...</Text>
     </View>
   );
 
